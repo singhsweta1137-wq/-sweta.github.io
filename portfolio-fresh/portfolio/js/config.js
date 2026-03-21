@@ -203,7 +203,7 @@ const CONFIG = {
     },
     {
       degree: "Senior Secondary (Class X)",
-      institution: "Kendriya Vidyalaya",
+      institution: "Navy Children School",
       year: "2016",
       icon: "📚",
     },
