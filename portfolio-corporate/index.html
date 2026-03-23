@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand"><span data-config="name">Sweta</span></a>
+    <button id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="nav-menu">
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Work</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><a href="blog.html" class="nav-link">Blog</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme"></button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-layout">
+      <div class="hero-content">
+        <div class="hero-pretitle">Content Professional</div>
+        <h1 class="hero-name">Sweta</h1>
+        <div class="hero-typing-row">
+          <span id="typing-text"></span><span class="cursor"></span>
+        </div>
+        <p class="hero-desc">
+          MBA-qualified content strategist specialising in textile heritage narratives, brand communication, and customer experience. Based in Visakhapatnam, India.
+        </p>
+        <div class="hero-ctas">
+          <a href="#experience" class="btn-primary">View Experience →</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-sidebar">
+        <div class="hero-contact-card">
+          <h4>Contact Details</h4>
+          <div class="contact-row">
+            <span class="contact-dot"></span>
+            <a href="mailto:singhsweta1137@gmail.com" data-config="email">singhsweta1137@gmail.com</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-dot"></span>
+            <a href="tel:+916300152029" data-config="phone">+91 6300152029</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-dot"></span>
+            <span data-config="location">Visakhapatnam, India</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-dot"></span>
+            <a href="https://www.linkedin.com/in/sweta-027140245/" target="_blank" rel="noopener">LinkedIn Profile</a>
+          </div>
+          <div class="availability-badge">
+            <span class="availability-dot"></span>
+            Open to Opportunities
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="container">
+    <span class="section-label">Expertise</span>
+    <h2 class="section-title">Core Skills</h2>
+    <div class="section-divider"></div>
+    <div id="skills-grid"></div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <div class="container">
+    <span class="section-label">Portfolio</span>
+    <h2 class="section-title">Selected Work</h2>
+    <div class="section-divider"></div>
+    <div id="projects-grid"></div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience">
+  <div class="container">
+    <span class="section-label">Career History</span>
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="section-divider"></div>
+    <div id="timeline"></div>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education">
+  <div class="container">
+    <span class="section-label">Qualifications</span>
+    <h2 class="section-title">Education</h2>
+    <div class="section-divider"></div>
+    <div id="education-grid"></div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <span class="section-label">Get In Touch</span>
+    <h2 class="section-title">Contact</h2>
+    <div class="section-divider"></div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <span class="contact-icon">✉️</span>
+            <a href="mailto:singhsweta1137@gmail.com" data-config="email">singhsweta1137@gmail.com</a>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-icon">📞</span>
+            <a href="tel:+916300152029" data-config="phone">+91 6300152029</a>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-icon">📍</span>
+            <span data-config="location">Visakhapatnam, India</span>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-icon">💼</span>
+            <a href="https://www.linkedin.com/in/sweta-027140245/" target="_blank" rel="noopener">LinkedIn Profile</a>
+          </div>
+        </div>
+      </div>
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" name="name" placeholder="Full Name" required>
+          </div>
+          <div class="form-field">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" name="subject" placeholder="Enquiry Subject">
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="fmessage">Message</label>
+          <textarea id="fmessage" name="message" rows="5" placeholder="Your message..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send Message →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <p class="footer-copy">© 2026 <span data-config="name">Sweta</span>. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="blog.html">Blog</a>
+        <a href="mailto:singhsweta1137@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/sweta-027140245/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
